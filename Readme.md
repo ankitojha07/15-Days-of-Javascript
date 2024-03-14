@@ -42,7 +42,7 @@
 
 `touch index.js`
 
-![See the example image-]("./image.png")
+![See the example image-]("image.png")
 
 ## Questions
 For detailed discussion or communication, let's connect on 👇
