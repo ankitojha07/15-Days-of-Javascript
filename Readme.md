@@ -5,7 +5,7 @@
 ## How will I be sharing my learning with public? 🚀
 > I will make daily Video on my [**YOUTUBE**](https://www.youtube.com/@AnkitOjhaCoding) channel with all the topics I have learned and what are the challenges I am facing. Also, there will be a post on [**X**](https://twitter.com/ankitojhacoding) for updated with the above details on daily basis.
 
-## What are the Resources teh I am going to use for this challenge?
+## What are the Resources that I am going to use for this challenge?
 **I will be using Video tutorials available on YouTube and blog pages for written content.**
 1. [Ultimate Javascript Tutorials](https://www.youtube.com/playlist?list=PLinedj3B30sDFRdgPYvjnBs2JsDdHPIMv), by- *Piyush Garg*
 2. [Namaste 🙏 JavaScript](https://www.youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP), by *Akshay Saini*
