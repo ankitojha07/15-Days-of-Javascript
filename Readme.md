@@ -21,16 +21,27 @@
 > You can follow below steps if you want to join me on this challenge 🧑‍💻
 
 1. Fork the repository and clone it to your system.
+
 2. Navigate to the project directory
+
 `cd 15-Days-of-Javascript`
+
 3. Create a folder with your name/userId
+
 `mkdir yourName`
+
 4. Navigate to the *yourName* directory
+
 `cd yourName`
+
 5. Now, you have to create day-wise folder and write code for particular day. Example:
+
 `mkdir day-1`
+
 `cd Day-1`
+
 `touch index.js`
+
 ![See the example image-]("./image.png")
 
 ## Questions
