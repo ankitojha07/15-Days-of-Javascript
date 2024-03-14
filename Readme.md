@@ -31,7 +31,7 @@
 `mkdir day-1`
 `cd Day-1`
 `touch index.js`
-![See the example image-]("C:\Users\ankit\OneDrive\Desktop\image.png")
+![See the example image-]("image.png")
 
 ## Questions
 For detailed discussion or communication, let's connect on 👇
