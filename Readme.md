@@ -53,7 +53,7 @@ For detailed discussion or communication, let's connect on 👇
 
 ## Day by Day update
 - [x] Day-1 Contribution: 
-- [x] Day-2 Contribution:
+- [] Day-2 Contribution:
 - [ ] Day-3 Contribution:
 - [ ] Day-4 Contribution:
 - [ ] Day-5 Contribution:
