@@ -20,3 +20,13 @@ function sumOf(num1, num2, addMore){
 }
 
 let finalRes = sumOf(10,+45, (val)=>console.log(val+100));
+
+// arrow functions
+
+const doSome = (a)=>{
+    let r = a*5
+    return r;
+}
+
+let someResult = doSome(12);
+console.log(someResult);
