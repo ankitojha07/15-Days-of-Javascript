@@ -42,8 +42,6 @@
 
 `touch index.js`
 
-![See the example image-]("image.png")
-
 ## Questions
 For detailed discussion or communication, let's connect on 👇
 - [WhatsApp Community](https://chat.whatsapp.com/E27XYKEV5iWJyr6J4UJkPs)
