@@ -23,6 +23,6 @@ function failedToGet(){
     console.log('There was some issue while fetvching your location');
 }
 
-btnSubmit.addEventListener('click',async ()=>{
+btnSubmit.addEventListener('click',()=>{
     navigator.geolocation.getCurrentPosition(gotLocation,failedToGet);
 })
