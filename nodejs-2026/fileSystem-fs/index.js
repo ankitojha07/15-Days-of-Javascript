@@ -37,3 +37,4 @@ console.log(data);
 // fs.rmdirSync("games/xyz/a")
 // fs.rmdirSync("games/xyz/b")
 // fs.rmdirSync("games/xyz")
+// fs.rmdirSync("games")
