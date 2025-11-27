@@ -8,5 +8,11 @@ const fs = require('node:fs')
 const data = fs.readFileSync("notes.txt", 'utf-8')
 console.log(data);
 
+// write file SYnc is used to create a new file with the content provided.
+// if the file is already available, it will override the whole file with new content.
+// fs.writeFileSync("copy.txt", "I want to write this usig the js code.", "utf-8")
 
-fs.writeFileSync("copy.txt", "I want to write this usig the js code.", "utf-8")
+// To append the content, use appendFileSync
+fs.appendFileSync("copy.txt", "this is the content to appned using the append file sync in js.", "utf-8")
+const readNew = fs.readFileSync("copy.txt", "utf-8")
+console.log(readNew);
