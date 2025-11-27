@@ -52,16 +52,18 @@ For detailed discussion or communication, let's connect on 👇
 ## Day by Day update
 - [x] Day-1 Contribution: 
 - [x] Day-2 Contribution:
-- [ ] Day-3 Contribution:
-- [ ] Day-4 Contribution:
-- [ ] Day-5 Contribution:
-- [ ] Day-6 Contribution:
-- [ ] Day-7 Contribution:
-- [ ] Day-8 Contribution:
-- [ ] Day-9 Contribution:
-- [ ] Day-10 Contribution:
-- [ ] Day-11 Contribution:
-- [ ] Day-12 Contribution:
-- [ ] Day-13 Contribution:
-- [ ] Day-14 Contribution:
-- [ ] Day-15 Contribution:
+- [x] Day-3 Contribution:
+- [x] Day-4 Contribution:
+- [x] Day-5 Contribution:
+- [x] Day-6 Contribution:
+- [x] Day-7 Contribution:
+- [x] Day-8 Contribution:
+- [x] Day-9 Contribution:
+- [x] Day-10 Contribution:
+- [x] Day-11 Contribution:
+- [x] Day-12 Contribution:
+- [x] Day-13 Contribution:
+- [x] Day-14 Contribution:
+- [x] Day-15 Contribution:
+
+# Restarting this challnege in Dec 2025, (27th November 2025, to be more Specific)
