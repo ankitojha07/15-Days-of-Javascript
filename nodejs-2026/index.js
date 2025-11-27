@@ -16,3 +16,14 @@ console.log(data);
 fs.appendFileSync("copy.txt", "this is the content to appned using the append file sync in js.", "utf-8")
 const readNew = fs.readFileSync("copy.txt", "utf-8")
 console.log(readNew);
+
+
+// how to create a directory?
+// fs.mkdirSync("games")
+
+// now you want to Hierarchy of folders inside this?
+fs.mkdirSync("games/xyz/a",{recursive:true})
+fs.mkdirSync("games/xyz/b",{recursive:true})
+fs.mkdirSync("games/second",{recursive:true})
+fs.mkdirSync("games/second/1",{recursive:true})
+fs.mkdirSync("games/second/2",{recursive:true})
