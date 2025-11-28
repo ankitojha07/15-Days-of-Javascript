@@ -1,0 +1,20 @@
+{
+  "name": "15-days-of-javascript",
+  "version": "1.0.0",
+  "description": "> This is 15 days of Javascript challenge where I will be coding in Javascript for next 15 days, without skipping any day. If I skipped any single day I have to start it again from day 1.",
+  "homepage": "https://github.com/ankitojha07/15-Days-of-Javascript#readme",
+  "bugs": {
+    "url": "https://github.com/ankitojha07/15-Days-of-Javascript/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ankitojha07/15-Days-of-Javascript.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
