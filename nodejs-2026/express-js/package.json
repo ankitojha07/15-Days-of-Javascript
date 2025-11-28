@@ -1,0 +1,19 @@
+{
+  "name": "express-js-codes",
+  "version": "1.0.1",
+  "description": "Learning express",
+  "keywords": [
+    "express"
+  ],
+  "license": "ISC",
+  "author": "Ankit Ojha",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js "
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
