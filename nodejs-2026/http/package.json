@@ -8,6 +8,6 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "node server.js"
+    "start": "node task.js"
   }
 }
