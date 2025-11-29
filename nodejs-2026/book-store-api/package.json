@@ -1,0 +1,17 @@
+{
+  "name": "book-store-api",
+  "version": "1.0.0",
+  "description": "Book store API in express js ",
+  "license": "ISC",
+  "author": "Ankit Ojha",
+  "type": "modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
