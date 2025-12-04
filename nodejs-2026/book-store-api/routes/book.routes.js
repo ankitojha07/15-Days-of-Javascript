@@ -1,20 +1,12 @@
-const express = require('express');
+import { Router } from 'express';
+import {Books} from "../db/books.js"
+const router = Router();
 
-const router = express.Router();
-
-const Books = [
-    { "id": 1, title: "Book 1", author: "Author 1" }
-]
-
-router.get("/", (req, res) => {
-    res.status(200).json({message:"Welcome to the book store API!"})
-})
-
-router.get('/books',(req,res)=>{
+router.get('/',(req,res)=>{
     res.status(200).json(Books)
 });
 
-router.get('/books/:id', (req, res) => {
+router.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     if (isNaN(id)) {
         return res.status(400).json({ error: "Id must be of type number." })
@@ -30,7 +22,7 @@ router.get('/books/:id', (req, res) => {
 
 // Implement POST requests to add Books
 
-router.post("/books", (req, res) => {
+router.post("/", (req, res) => {
 
     const { title, author } = req.body;
     if (!title || title === '') return res.status(400).json({ error: "Title is required" })
@@ -45,7 +37,7 @@ router.post("/books", (req, res) => {
 
 // delete a book by id
 
-router.delete("/books/:id", (req,res)=>{
+router.delete("/:id", (req,res)=>{
     const id = parseInt(req.params.id);
     if(isNaN(id)){
         return res.status(400).json({error:"Id must be a number!"})
@@ -60,4 +52,4 @@ router.delete("/books/:id", (req,res)=>{
     return res.status(200).json({message:`You have successfully deleted the book with id ${id}!`})
 })
 
-module.exports = router;
+export default router;
