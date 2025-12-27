@@ -2,9 +2,11 @@
 const { Pool } = require("pg");
 const { drizzle } = require("drizzle-orm/node-postgres");
 
-const connectionString =
-  process.env.DATABASE_URL ||
-  "postgresql://ankitFirstPostgres:admin123@localhost:5432/mydb";
+require("dotenv/config");
+
+// dotenv.config();
+
+const connectionString = process.env.DATABASE_URL;
 const pool = new Pool({ connectionString });
 
 const db = drizzle(pool);

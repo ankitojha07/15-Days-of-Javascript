@@ -2,6 +2,10 @@
 const { db } = require("./db");
 const { userTable } = require("./drizzle/schema");
 
+// require("dotenv/config");
+
+// dotenv.config();
+
 async function getAllUsers() {
   // make sure db and userTable are defined
   if (!db) {
