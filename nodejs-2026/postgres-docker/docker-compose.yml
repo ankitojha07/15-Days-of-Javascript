@@ -6,4 +6,4 @@ services:
     environment:
       POSTGRES_USER: ankitFirstPostgres
       POSTGRES_PASSWORD: admin123
-      postgres_DB: mydb
+      POSTGRES_DB: mydb

@@ -1,4 +1,4 @@
-import { integer, pgTable, varchar } from "drizzle-orm/pg-core";
+const { integer, pgTable, varchar } = require("drizzle-orm/pg-core");
 
 const userTable = pgTable("users", {
   id: integer().primaryKey(),
@@ -6,6 +6,4 @@ const userTable = pgTable("users", {
   email: varchar({ length: 55 }).notNull().unique(),
 });
 
-module.exports = {
-  userTable,
-};
+module.exports = { userTable };
