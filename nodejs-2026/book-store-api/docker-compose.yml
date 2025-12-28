@@ -2,10 +2,9 @@ services:
   postgres:
     image: postgres:17.4
     ports:
-      -5432:5432
-    
+      - "5432:5432"
     environment:
-      POSTGRES_USER:postgres
-      POSTGRES_DB:book-store
-      POSTGRES_PASSWORD:admin123
+      POSTGRES_USER: postgres
+      POSTGRES_DB: book-store
+      POSTGRES_PASSWORD: admin123
       

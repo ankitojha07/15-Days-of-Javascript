@@ -8,3 +8,4 @@ const authorTable = pgTable("author", {
 });
 
 export default authorTable;
+export { authorTable };

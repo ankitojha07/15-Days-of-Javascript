@@ -10,3 +10,4 @@ const booksTable = pgTable("books", {
 });
 
 export default booksTable;
+export { booksTable };
