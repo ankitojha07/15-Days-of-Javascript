@@ -1,3 +1,4 @@
+import { count } from "drizzle-orm";
 import { Books } from "../models/book.model.js";
 
 export function getAllBooks(req, res) {
@@ -17,19 +18,34 @@ export function getBookById(req, res) {
 }
 
 export function createBooks(req, res) {
-  const { title, author } = req.body;
-  if (!title || title === "")
-    return res.status(400).json({ error: "Title is required" });
-  if (!author || author === "")
-    return res.status(400).json({ error: "Author is required" });
+  const books = req.body;
 
-  const id = Books.length + 1;
-  const book = { id, title, author };
-  Books.push(book);
-  console.log(Books);
+  if (!Array.isArray(books) || books.length === 0) {
+    return res.status(400).json({ error: "Request body must be a non-empty array of books" })
+  }
+
+  const newBook = [];
+  let nextId = Books.length + 1;
+
+  for (let i = 0; i < books.length; i++) {
+    const { title, author } = books[i];
+
+    if (!title || title.trim() === "") {
+      return res.status(400).json({ error: "Title is required to add a book." })
+    }
+
+    if (!author || author.trim() === "") {
+      return res.status(400).json({ error: "Author is required." })
+    }
+
+    const book = { id: nextId++, title, author };
+    newBook.push(book);
+  }
+
+  Books.push(...newBook)
   return res
     .status(201)
-    .json({ message: "Book has been added to the store Successfully!", id });
+    .json({ message: "Book has been added to the store Successfully!", count:newBook.length, books: Books});
 }
 
 export function deleteBooks(req, res) {

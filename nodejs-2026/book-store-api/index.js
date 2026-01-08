@@ -1,6 +1,5 @@
 import express, { json } from "express";
 
-
 import bookRoutes from "./routes/book.routes.js";
 import { logger } from "./middlewares/logger.js";
 
