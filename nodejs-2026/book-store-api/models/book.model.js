@@ -11,3 +11,6 @@ const booksTable = pgTable("books", {
 
 export default booksTable;
 export { booksTable };
+
+// In-memory array for controller operations
+export const Books = [];

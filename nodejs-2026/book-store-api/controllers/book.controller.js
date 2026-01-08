@@ -1,4 +1,4 @@
-import { Books } from "../models/book.model";
+import { Books } from "../models/book.model.js";
 
 export function getAllBooks(req, res) {
   res.json(Books);
@@ -29,7 +29,7 @@ export function createBooks(req, res) {
   console.log(Books);
   return res
     .status(201)
-    .json({ Message: "Book has been added to the store Successfully!", id });
+    .json({ message: "Book has been added to the store Successfully!", id });
 }
 
 export function deleteBooks(req, res) {
