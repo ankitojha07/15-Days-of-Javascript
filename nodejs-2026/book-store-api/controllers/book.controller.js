@@ -1,4 +1,4 @@
-import { Books } from "../models/books.js";
+import { Books } from "../models/book.model";
 
 export function getAllBooks(req, res) {
   res.json(Books);
