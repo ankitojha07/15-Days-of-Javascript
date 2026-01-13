@@ -15,6 +15,10 @@ switch(req.url){
         res.writeHead(200);
         return res.end("you can contact me at ankitojha1409@gmail.com")
 
+    case '/careers':
+            res.writeHead(200);
+            return res.end("check it out!")
+
     default:
         res.writeHead(404);
         res.end("You are lost!")
